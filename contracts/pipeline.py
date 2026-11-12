@@ -25,7 +25,8 @@ SYSTEM_PROMPT = f"""너는 누리철도 HR 챗봇이다. 아래 규칙을 지켜
 
 # ---------------------------------------------------------------- DB 행 → 모델
 def chunk_hit_from_row(row: Mapping[str, Any], score: float, rank: int) -> ChunkHit:
-    """rag.chunks 한 줄(dict) → ChunkHit. 옛 조각 파일처럼 doc_kind 가 비어 있으면 ID로 채운다."""
+    """rag.chunks 한 줄(dict) → ChunkHit. 옛 조각 파일처럼 doc_kind 가 비어 있으면 ID로 채운다.
+    카테고리는 categories(목록). 옛 DB처럼 category(1개)만 있으면 목록 하나로 감싼다."""
     doc_id = row["document_id"]
     return ChunkHit(
         chunk_id=row["chunk_id"],
@@ -37,7 +38,7 @@ def chunk_hit_from_row(row: Mapping[str, Any], score: float, rank: int) -> Chunk
         part=row.get("part") or 1,
         text=row["text"],
         effective_date=row.get("effective_date") or None,
-        category=row.get("category") or "",
+        categories=list(row.get("categories") or ([row["category"]] if row.get("category") else [])),
         score=float(score),
         rank=rank,
     )

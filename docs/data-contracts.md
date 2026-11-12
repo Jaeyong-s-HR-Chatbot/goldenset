@@ -18,6 +18,7 @@
 | 조각 ID | `r`/`L` + 두 자리 + `-` + 네 자리 | `r03-0024`, `L01-0086` |
 | 문서 ID | `r01`~`r33` 규정, `L01`~`L13` 법령 | `r08` |
 | 사번 | `E` + 네 자리 (DB 그대로) | `E1634` |
+| 카테고리 | 조각마다 목록 (`rag.chunks.categories text[]`), 이름은 DB `rules/regulations.yaml` 그대로 | `["생애이벤트-출산", "근태관리"]` |
 | 직급 | DB 체계 1급(부장)~5급(사원). 내부는 숫자, 사람에게 보일 때만 `"4급"` | `grade=4` → `"4급"` |
 | 문서 종류 | DB `rag.chunks.doc_kind` 값 그대로 | `내부규정`, `법령` |
 | 날짜 | ISO 문자열 | `2026-11-12` |
@@ -40,12 +41,13 @@
   "chunk_id": "r03-0024", "document_id": "r03", "doc_kind": "내부규정",
   "doc_name": "취업규칙", "article": "제23조", "article_title": "연차휴가", "part": 1,
   "text": "제23조(연차휴가) ① 1년간 80퍼센트 이상 출근한 직원에게 15일의 …",
-  "effective_date": "2026-07-28", "category": "근태관리",
+  "effective_date": "2026-07-28", "categories": ["근태관리"],
   "score": 0.80, "rank": 1
 }
 ```
 
 - `doc_kind`는 DB 값(`내부규정`/`법령`) 그대로예요. 혹시 비어 있는 옛 파일이면 ID 첫 글자로 채워요.
+- `categories`는 팀 카테고리 **목록**이에요. 조각 하나에 여러 개 붙어요 (예: 청원휴가 별표 3 → `["생애이벤트-결혼", "근태관리"]`). 규칙은 DB 저장소 `categories.py`. 검색 필터는 `categories && ARRAY['근태관리','공통']`처럼 **하나라도 겹치면 통과**로 걸어요.
 - `embedding`, `tsv`, `source_file` 같은 검색용·관리용 칸은 넘기지 않아요.
 
 ## 3. DB(hr) → RAG: `HrContext`
