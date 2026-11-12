@@ -9,6 +9,8 @@
 | --- | --- |
 | `router/router.py` | 질문 라우터. 규정 검색만 할지, HR 조회도 같이 할지 정함 (LLM 안 씀) |
 | `tests/test_router.py` | 라우터 채점 |
+| `contracts/` | DB ↔ RAG ↔ LLM ↔ 프론트 사이 데이터 형식과 변환 함수 ([설명](docs/data-contracts.md)) |
+| `tests/test_contracts.py` | 실제 DB 행으로 형식을 끝까지 흘려보는 검사 |
 | `eval/golden_set.json` | 골든셋 279문항 (정답, 핵심 사실, 근거 조각 ID 등) |
 | `eval/routing_questions.json` | 라우터 채점용 질문 366개 (규정 / 개인 / 둘다 라벨) |
 
