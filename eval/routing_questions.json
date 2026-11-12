@@ -1,0 +1,1832 @@
+[
+ {
+  "question": "나 올해 연차 몇 개야?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "임금피크제 들어갔는데 연차 일수도 줄어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "정년퇴직 전에 남은 연차 몰아서 써도 되나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "퇴직하는 해에도 연차가 다 생겨, 아니면 근무한 만큼만?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내 병원 모시고 가야 해서 한동안 출근을 1시간 늦추고 싶어",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아침에 혈압이 올라서 못 나갈 것 같아. 어떻게 해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "지하철이 멈춰서 늦을 것 같은데 언제까지 연락해야 해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "무릎 수술로 병가 2주 쓰려는데 진단서 내야 해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "저 아직 민방위 훈련 대상인가요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "차량사업소 정비 일정 점검 때문에 일요일에 나왔는데 미리 신청을 못 했어",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "병원 때문에 오전 반차 쓰고 싶은데요. 반차 쓰면 연차에서 반나절만 빠져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "내 가족수당 지금 한 달에 얼마 받는 게 맞아?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "아들이 24살에 취업했어. 아들 몫 가족수당 계속 나와?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아들이 대상에서 빠지면 딸은 둘째(8만)로 계속 받아, 첫째(5만)로 바뀌어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임피로 기본급 깎이면 야근수당도 같이 줄어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "통상임금이 500만원인데 밤 10시부터 새벽 2시까지 일하면 야간수당이 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "올해 연차 10일 남으면 연차수당 얼마예요? (통상임금 500만원)",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "퇴직하는 달에 남은 연차는 언제 통상임금으로 계산해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "당직 서면 당직비 나와요? 다음 날은 쉬어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "정년 전에 사업소 교대근무로 옮기면 수당 달라져?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "딸이 아직 대학생이니까 딸 몫 가족수당은 계속 나오는 거지?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "59세인데 장기 국외훈련 지원할 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "회사에서 퇴직 준비 교육 같은 거 해줘?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "성희롱 예방교육 같은 법정교육 저도 다 들어야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "차량계획팀도 분기별 철도안전교육 받아야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "지방 연수원에서 교육받으면 여비 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "퇴직 1년 남았는데 회사 지원으로 대학원 다녀도 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "2주짜리 집합교육 수료 기준이 뭐예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내 수술 날이 교육 날이랑 겹쳐요. 빠지면 불이익 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나이 들어서도 AI·업무 자동화 교육 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "후배들 교육하러 강사로 나가면 돈 따로 나와?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출장은 거의 없는데, 근무지 안 다른 사무실 회의 3시간도 출장비 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "연수원 교육 가는 것도 출장 처리돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임피 중에 출장 가면 일비는 어느 직급 기준이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "3급은 일비·식비 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "갑자기 차량사업소(광역시) 1박 2일 점검 가면 얼마 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "서울 본사 회의로 1박 하면 숙박비 상한은?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "후배랑 출장 가면 방 하나 같이 써야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "건강 문제로 출장 지시를 거절할 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내 몫 가족수당은 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내도 누리철도 직원이면 둘 다 가족수당 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내 병원 모시고 가야 하는데 가족돌봄휴가 유급이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내 수술로 한 달 간병해야 해요. 쉴 방법과 월급은요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내 병원 때문에 올해 돌봄휴가 5일 썼는데, 아예 길게 쉬는 건 며칠까지 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "제가 병으로 오래 치료받아야 하면 휴직되나요? 급여는요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "건강검진 몇 년마다 받는 거야?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "가족 중 누가 돌아가시거나 독립하면 가족수당 신고해야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "딸이 대학 가는데 자녀 학자금 지원 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "퇴직하고 나서도 회사 휴양시설이나 경조금 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아들이 결혼하면 아들 몫 가족수당은 계속 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "며느리도 부양가족으로 올려서 가족수당 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "상견례·결혼식 준비로 연차를 며칠 붙여 써도 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "사돈어른 병원 모시고 갈 때도 돌봄휴가 쓸 수 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼한 아들이 다쳐서 돌봐야 하면 가족돌봄휴가 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼 30년 차인데 배우자 가족수당 계속 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아들 신혼집 보태려고 퇴직금 미리 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼 30주년 해외여행으로 연차 10일 연속 써도 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "자녀 결혼하면 경조휴가 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "자녀 결혼하면 회사 경조금 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아들 결혼하면 회사에서 나오는 거 뭐 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "며느리가 출산하면 할아버지인 저도 휴가 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "손주 돌봄에도 가족돌봄휴가 쓸 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "며느리 산후조리 도와주러 가는 것도 돌봄휴가 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "손주가 큰 병으로 오래 돌봐야 하면 휴직돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "손주 돌봄 때문에 하루 근무시간을 줄일 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "손주도 가족수당 대상이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아들도 누리철도 직원인데 아이 태어나면 아들은 휴가 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "며느리도 누리철도 직원이면 임신 중 근무시간 줄일 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "손주 태어나면 회사 축하금 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "1967년 4월생이면 정년퇴직일이 언제예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "정년이 2027년 6월이면 임금피크제는 언제부터였어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "3급인데 임금피크제 2년차면 기본급이 얼마나 깎여요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임금피크제 중 복리후생은 어떻게 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "29년 다녔으면 퇴직금 어떻게 계산해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임금피크로 퇴직금이 줄까 봐 걱정돼요. 방법 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "퇴직 전 1–2년은 근무시간을 줄이고 은퇴 준비하고 싶어요",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "6월에 정년퇴직하면 남은 연차수당은 어떻게 계산해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "퇴직연금이 DB형이에요, DC형이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "정년퇴직 후 촉탁직으로 다시 일할 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임피 들어가면 기본급 절반 깎이는 거 맞죠?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "정년이 61세로 늘었다던데 저도 해당돼요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "정년퇴직 앞두고 챙겨야 할 거 다 알려줘",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "3급에서 2급으로 가려면 최소 몇 년이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임금피크제 중에도 승진할 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "정년 전에 2급 되면 출장비가 달라져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "2급 되면 아내 가족수당은요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "승진 순서는 뭘로 정해져요? 점수 어떻게 매겨요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "우리 팀에 신입 오는데 수습 얼마나 해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입 후배는 첫해 연차가 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입(전국권) 후배가 다른 권역으로 가고 싶대요. 언제부터 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입사원 입문교육은 몇 주짜리예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "승진하면 월급이 얼마나 올라요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나 올해 연차 몇 개야?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "내년엔 연차 늘어나?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "연차 신청은 어디서 어떻게 해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "추석 연휴 사이에 연차 붙여 쓰면 공휴일도 연차에서 빠지나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "일요일에 출장 출발해야 하는데 미리 신청을 못 했어. 휴일근무로 인정돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아침에 갑자기 몸살 나서 못 나갈 것 같아. 어떻게 해야 해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "차가 막혀서 지각할 것 같은데 언제까지 연락해야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "감기로 이틀 병가 쓰려는데 진단서 내야 해?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "예비군 훈련 가는 날도 연차 써야 하나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아버지 병원 통원 때문에 한동안 출근을 1시간 늦추고 싶어. 방법 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "내일 오후 반차 쓰고 싶은데 반차도 돼? 연차 0.5일 빠지는 거야?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 결혼해서 아이까지 생기면 부모님 몫까지 가족수당 다 받을 수 있나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출장 가서 야근하면 야근수당 나와?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출장 일정 때문에 밤 11시부터 새벽 1시까지 일했으면 수당은?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출장 가려고 일요일에 이동하거나 일하면 휴일수당 받나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "연차 5일 남았는데 안 쓰면 돈으로 받나요? 언제요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "연차 쓰라고 공문 왔는데 출장 때문에 못 썼어요. 그럼 연차수당 못 받나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "통상임금이 418만원인데 밤 10시부터 새벽 2시까지 일하면 야간수당이 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "당직 서면 당직비 나와요? 다음 날은 쉬어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "지역본부 교대근무 부서로 옮기면 수당이 달라져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "부모님 가족수당은 한 분당 3만원이지?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "3년차인데 회사 돈으로 해외 장기연수 갈 수 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "2년 뒤 장기 국외훈련 지원하려면 토익 몇 점, 언제 봐야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "회사 지원(2,000만원)으로 석사 2년 다니고 복귀 9개월 후 그만두면 얼마 돌려줘요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "2주짜리 집합교육 중에 출장이 겹치면 수료 못 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "지방 연수원에서 교육받으면 여비 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "교육 성적도 승진에 들어가요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아버지 병원 가는 날이 교육 날이랑 겹쳐요. 빠지면 불이익 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "성희롱 예방교육 같은 법정교육은 1년에 몇 번 들어야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "본사 사무직인 저도 분기별 철도안전교육 받아야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "회사에서 AI나 업무 자동화 교육을 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "지역본부(광역시)로 1박 2일 출장 가면 얼마 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "한 달에 한 번 1박 2일이면 1년 출장비가 최대 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "숙소가 9만 5천원짜리밖에 없었어요. 다 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출장 가면 동료랑 방 같이 써야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "서울 안 다른 사무실로 3시간 다녀오는 것도 출장비 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "팀장님(2급)이랑 같이 출장 가면 받는 돈이 달라요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "서울 출장 숙박비 상한은? 넘으면요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "해외 출장 일비는 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "해외출장 갔다 오면 영수증 정리해서 정산 언제까지 해야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "광역시 출장 숙박비는 10만원까지 나오죠?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "국내 출장 가면 받을 수 있는 돈 다 알려줘",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "부모님 두 분 다 가족수당 받을 수 있나요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "부모님 가족수당은 한 달에 얼마예요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "아버지가 직장가입자인데 가족수당 받을 수 있나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "부모님 부양가족으로 올리려면 뭐 내야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아버지 병원 모시고 가야 하는데 가족돌봄휴가 쓸 수 있나요? 유급인가요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "어머니 수술로 한 달 간병해야 해요. 쉴 방법과 월급은요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "부모님 돌보느라 올해 돌봄휴가 5일 썼는데, 아예 길게 쉬는 건 며칠까지 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "제가 병으로 오래 치료받아야 하면 휴직되나요? 급여는요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼 후 아내가 해외 발령 나면 따라가서 쉴 수 있나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "이사하면 주택자금 지원 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼하면 가족수당 얼마 더 받아요? 따로 신청해야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼하면 지금 받는 부모님 가족수당은 그대로예요? 합치면 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "배우자, 부모님 두 분, 부양 요건이 되는 가족이 1명 더 있으면(자녀 아님) 다 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내도 누리철도 직원이에요. 둘 다 가족수당 받나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 2급이 되면 배우자 가족수당도 계속 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신혼여행 때문에 연차를 길게 붙여 쓸 수 있어요? 공휴일 끼면요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼하면 장인어른 병원 모시고 갈 때도 돌봄휴가 쓸 수 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼하고 아내 집 근처 다른 권역 지역본부로 옮기고 싶어요. 언제부터 돼요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "결혼 후 아내가 해외로 발령 나면 따라가도 전보 제한 기간이 계속 가요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼하면 경조금이랑 결혼 휴가는 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼하면 회사에서 챙겨주는 거 뭐 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 와이프 출산하면 나 배출휴가 며칠이야?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산하고 5개월 뒤에 남은 배우자 출산휴가를 써도 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아이가 태어나면 가족수당이 얼마 늘어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아이가 셋이면 가족수당이 한 달에 얼마예요? 배우자 포함이요.",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육휴 최대 몇 년이야? 나눠 쓸 수 있어? 회사가 안 된다고 할 수도 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내가 임신 중인데 저도 육아휴직 신청할 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아내도 누리철도 직원이면, 임신 중에 근무시간을 줄일 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아이가 초3이면 육아휴직 돼요? 안 되면요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "애 키우면서 단축근무로 주 30시간만 일하면 월급 줄어요? 최대 얼마나 써요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아이 둘이 아파요. 돌봄휴가 중 며칠이 유급이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "배출휴가는 10일이지?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "입사 4년차인데 자기개발 휴직 쓸 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "난임치료 때문에도 휴직할 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출장 갔다가 다쳐서 오래 치료해야 하면 휴직은 얼마나 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "해외유학 휴직이랑 회사가 보내는 해외연수는 뭐가 달라요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "사내벤처로 창업하면 휴직돼? 월급은 나와?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "휴직하면 전보 제한 기간에서 빠져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "6월에 퇴직하면 남은 연차수당은 어떻게 계산해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "정년이 2028년 3월이면 임피는 언제부터야?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "3급인데 임금피크제 들어가면 기본급이 얼마나 깎여요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임금피크제 들어가면 복리후생이나 퇴직금은 어떻게 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입 수습 기간이 얼마나 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "입사 첫해에는 연차가 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입사원 입문교육은 몇 주짜리예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입(전국권)인데 다른 권역으로 언제 옮길 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "6급에서 5급 달려면 최소 몇 년 있어야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "4급에서 3급으로 가려면 최소 몇 년이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "고졸 제한경쟁으로 입사했으면 승진 최소 재직기간이 달라요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "첫째 육아휴직 1년 쓰면 승진 재직기간에서 빠져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "승진하면 월급이 얼마나 올라요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 2급으로 승진하면 출장비도 달라져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "올해 연차 다 못 쓰면 그냥 없어져?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "입사 7년차면 연차가 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "병가는 1년에 며칠까지 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출장 날짜가 아버지 병원 가는 날과 겹쳐요. 쉴 방법 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "입사 1년 지나면 연차 몇 개 생겨?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임신 중에 산부인과 정기검진 갈 때마다 연차 써야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임신 초기라 너무 힘든데 근무시간 줄일 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "입덧이 심해서 아침에 못 나갈 것 같아요",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산휴가 중에 공휴일이 끼면 그만큼 뒤로 늘어나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육휴 1년 쓰면 다음 해 연차 줄어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "복직하면 어린이집 등원 때문에 출근을 1시간 늦추고 싶어요",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "주말 홍보 행사 근무를 미리 신청 못 했어요. 휴일근무로 인정돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "차가 막혀서 지각할 것 같은데 언제까지 연락해야 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "오후 반차 쓰면 연차에서 0.5일만 빠져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "입사 1년 안 됐으면 연차 아예 없는 거죠?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나 지금 가족수당 얼마 받고 있어?",
+  "label": "개인",
+  "source": "golden"
+ },
+ {
+  "question": "아이가 태어나면 가족수당이 얼마 돼요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "남편도 누리철도 직원이면 가족수당 둘 다 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임신 중인데 팀에서 야근하래요. 해야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "복직하고 나서 야근은 얼마까지 할 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "통상임금이 300만원인데 일요일 행사 4시간 일하면 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육아휴직 중에도 가족수당 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "복직하고 애 때문에 단축근무로 주 30시간만 하면 월급 줄어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "연차 쓰라고 공문 받았는데 출휴 들어가서 못 썼어요. 연차수당 못 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입사원 입문교육은 몇 주짜리예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산휴가·육아휴직 중이라 법정교육을 못 들으면요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "1년차도 회사 돈으로 해외 장기연수 갈 수 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 장기 국외훈련 지원하려면 토익 몇 점이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "2주짜리 집합교육이 출산 예정일이랑 겹쳐요",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "교육 성적도 승진에 들어가요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "홍보 콘텐츠 만들 때 쓸 AI 교육 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "홍보팀도 분기마다 철도안전교육 들어야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "지방 연수원에서 교육받으면 여비 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육아휴직 끝나고 복직할 때 적응 교육 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임신 중인데 지방 출장 빠질 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "광역시 홍보 행사로 1박 2일 가면 얼마 받아요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "숙소가 9만 5천원짜리밖에 없었어요. 다 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임신 중인데 출장 가서 동료랑 방 같이 써야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "주말 행사 때문에 토요일에 이동하면 휴일수당 나와요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "해외 홍보 출장 일비는 얼마예요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "해외출장 다녀오면 정산 언제까지 해야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "복직 후 아직 모유 수유 중인데 출장 가면 수유시간은요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "어머니(56) 몫 가족수당 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "엄마 부양가족으로 올리려면 뭐 내야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "어머니 병원 모시고 가야 하는데 가족돌봄휴가 유급이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "어머니 수술로 한 달 간병해야 해요",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "엄마 간병으로 돌봄휴가 5일 썼는데, 아예 길게 쉬는 건 며칠까지 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "임신 합병증으로 오래 쉬어야 하면 휴직되나요? 급여는요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "남편이 해외 발령 나면 따라가서 쉴 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "산후조리원 비용 지원 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "회사에 어린이집 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "엄마가 아프시면 회사에서 쓸 수 있는 거 뭐 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "남편 몫 가족수당 신청했어야 했나요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "남편·어머니 둘 다 가족수당 받을 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "남편 직장 근처 다른 권역으로 옮기고 싶어요. 지금 돼요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "육아휴직 쓰면 전보 제한 기간은 어떻게 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "남편 해외 발령 따라가서 휴직하면 전보 제한 기간은요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "시어머니 병원 모시고 갈 때도 돌봄휴가 쓸 수 있어?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 2급이 되면 남편 몫 가족수당은요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "결혼 경조금이랑 결혼 휴가는 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산휴가는 며칠이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출휴 동안 월급은 누가 줘?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산 전에 휴가를 미리 나눠 쓸 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "남편 배출휴가는 며칠이야?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산 전에 육휴부터 당겨 쓸 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "혹시 유산하게 되면 휴가가 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아이가 태어나면 가족수당이 얼마 늘어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "복직하면 수유시간이 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 둘째까지 낳으면 가족수당이 한 달에 얼마예요?",
+  "label": "둘다",
+  "source": "golden"
+ },
+ {
+  "question": "아이가 아파서 쉬어야 하면 돌봄휴가 중 며칠이 유급이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산휴가 60일이죠?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산 앞두고 회사에서 받을 수 있는 거 다 정리해줘",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육아휴직은 몇 년까지, 몇 번 나눠 쓸 수 있어요? 회사가 거절할 수도 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육아휴직은 언제까지 신청해야 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육휴 중에 돈 얼마 나와?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "남편이랑 같이 육휴 쓰면 돈 더 받아?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "복직하면 원래 자리로 돌아가요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "복직 후 육아기 근로시간 단축은 얼마나 써요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "아이가 초3이 되면 육아휴직 남은 거 쓸 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산 후 산후우울증으로 오래 쉬어야 하면요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "둘째 준비로 난임 치료 받으면 휴가 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "입사 3년차쯤 자기개발 휴직 쓸 수 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육휴는 1년까지만 되는 거 맞지?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "신입 수습 기간이 얼마나 돼요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "수습 중에 임신 사실 알리면 불이익 있어요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "6급에서 5급 달려면 몇 년 있어야 돼?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "첫째 육아휴직 1년 쓰면 승진 재직기간에서 빠져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "출산휴가 90일도 승진 재직기간에 들어가요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "승진 점수는 뭘로 매겨요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "육아휴직 중에는 근무성적 평가를 어떻게 해요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "4급에서 3급으로 가려면 최소 몇 년이에요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "승진하면 월급이 얼마나 올라요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "나중에 2급이 되면 출장비도 달라져요?",
+  "label": "규정",
+  "source": "golden"
+ },
+ {
+  "question": "내 연차 몇 개 남았어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "제 잔여 연차 알려주세요",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "나 올해 연차 몇 일 썼어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내 휴가 사용 내역 보여줘",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "제 경조휴가 신청 승인됐나요?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내가 지난주에 올린 연차 신청 승인 났어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "이번 달 내 월급 얼마 들어왔어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "제 가족수당 이번 달에 지급됐나요?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내 복지포인트 얼마 남았어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "제 복지포인트 잔액이 얼마예요?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내 교육 이수 현황 알려줘",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "제가 올해 들어야 하는 법정교육 다 들었나요?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내 출장 내역 보여줘",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "저번 출장비 나 언제 받아?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내 초과근무 시간 이번 달 몇 시간이야?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "제 인사발령 이력 좀 보여주세요",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내 결근 기록 있어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "나 지난달 야간수당 얼마 받았어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "제 부양가족 등록 현황 확인하고 싶어요",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "내 병가 며칠 썼는지 알려줘",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "연차 몇 개 남았어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "잔여 연차 알려줘",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "이번 달 급여 명세 보여줘",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "경조휴가 신청한 거 승인됐어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "복지포인트 잔액 확인",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "교육 이수 내역 조회해줘",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "올해 휴가 쓴 거 몇 일이야?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "출장비 들어왔어?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "지난달 수당 얼마 받았지?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "신청한 육아휴직 처리됐어요?",
+  "label": "개인",
+  "source": "new"
+ },
+ {
+  "question": "나 내년에 연차 몇 개 생겨?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "제 근속이면 장기 국외훈련 지원 가능해요?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "나 승진 최소연수 채웠어?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "제 직급이면 출장 일비 얼마예요?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "내 통상임금으로 야간 4시간 하면 얼마야?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "남은 연차 다 안 쓰면 나 연차수당 얼마 받아?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "우리 부모님도 가족수당 대상이야?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "제 정년퇴직일이 언제예요?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "나 임금피크제 언제부터 적용돼?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "제가 자기개발 휴직 쓸 수 있는 근속인가요?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "내 아이 나이면 아직 육아휴직 돼?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "올해 가족수당 왜 줄었어?",
+  "label": "둘다",
+  "source": "new"
+ },
+ {
+  "question": "남은 연차는 다음 해로 이월돼요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "잔여 연차 계산은 어떻게 해요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "연차 신청하면 누가 승인해요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "휴가 승인권자가 누구예요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "수당은 매달 언제 지급돼요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "출장비 정산은 언제까지 해야 돼요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "복지포인트는 언제 소멸돼요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "교육 이수 기준이 뭐예요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "가족수당 신청 내역은 어디서 제출해요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "근무상황부 작성 현황은 누가 관리해요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "제가 결혼하는데 휴가 며칠이에요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "내가 아프면 병가 며칠까지 돼?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "저도 예비군 가면 공가예요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "나 출장 가면 방 혼자 써?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "제가 지각하면 언제까지 연락해야 돼요?",
+  "label": "규정",
+  "source": "new"
+ },
+ {
+  "question": "결혼하면 경조사 휴가는 며칠까지 쓸 수 있어?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "부모님 돌아가시면 장례 휴가 며칠 나와?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "출산휴가는 총 며칠이야?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "육아휴직은 최대 몇 년까지 쓸 수 있어?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "지각 몇 번 하면 인사평가에 반영돼?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "연차는 시간 단위로도 쓸 수 있어?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "퇴근 시간 전에 외출하려면 따로 신청해야 해?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "출장 가면 교통비나 숙박비는 어디까지 지원해 줘?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "명절 상여금 지급 기준이 어떻게 돼?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "퇴사하려면 최소 며칠 전에 회사에 알려야 해?",
+  "label": "규정",
+  "source": "teammate"
+ },
+ {
+  "question": "나 지금 남은 연차 며칠이야?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "나 이번 달에 지각 몇 번 했지?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "지난달에 내가 야근한 시간 얼마나 돼?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "내 연차 사용 내역 좀 보여줄래?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "내가 마지막으로 휴가 쓴 게 언제였지?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "내 인사평가 결과 나왔어?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "이번 달 내 급여명세서 확인할 수 있어?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "나 올해 교육 몇 시간 이수했어?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "내 비상연락처 지금 뭐로 등록돼 있어?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "내가 신청한 출장비 아직 처리 안 된 거 맞지?",
+  "label": "개인",
+  "source": "teammate"
+ },
+ {
+  "question": "나 입사한 지 2년 됐는데 올해 연차 몇 개 받을 수 있어?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "내가 작년에 연차 5일 썼는데 올해 이월된 연차까지 합치면 총 며칠 쓸 수 있어?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "나 다음 달에 결혼하는데 경조사 휴가 5일이랑 주말 포함해서 언제까지 쉴 수 있어?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "내가 이번 달에 야근한 시간 기준으로 수당 얼마 받을 수 있어?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "내 근속연수 기준으로 퇴직금 얼마나 받을 수 있을까?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "나 이번에 승진 대상에 해당하는지 확인해 줄 수 있어?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "내가 이번 달에 지각 3번 했는데 규정상 감봉이나 인사상 불이익이 있어?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "내 남은 연차랑 회사 연차 사용 촉진 규정 고려하면 올해 안에 며칠까지 써야 해?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "내가 육아휴직을 6개월 사용했는데 복직하면 남은 육아휴직 기간이 얼마나 돼?",
+  "label": "둘다",
+  "source": "teammate"
+ },
+ {
+  "question": "내 현재 직급과 근속연수 기준으로 다음 승급까지 얼마나 남았어?",
+  "label": "둘다",
+  "source": "teammate"
+ }
+]
