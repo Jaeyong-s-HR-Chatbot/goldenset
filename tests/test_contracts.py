@@ -36,6 +36,9 @@ assert [h.doc_kind for h in hits] == ["내부규정", "내부규정", "내부규
 assert chunk_hit_from_row({k: v for k, v in db["chunks"][0].items() if k != "doc_kind"}, 0.5, 1).doc_kind == "내부규정"
 assert hits[0].title == "취업규칙 제23조(연차휴가)", hits[0].title
 assert hits[0].effective_date == date(2026, 7, 28)
+assert hits[0].categories == db["chunks"][0]["categories"] and all(h.categories for h in hits)
+old = {k: v for k, v in db["chunks"][0].items() if k != "categories"} | {"category": "근태관리"}   # 옛 DB(category 1개)
+assert chunk_hit_from_row(old, 0.5, 1).categories == ["근태관리"]
 expect_error(lambda: chunk_hit_from_row({**db["chunks"][0], "chunk_id": "R3-24"}, 0.5, 1), "잘못된 chunk_id")
 
 # 2) DB(hr) → HrContext : 내 사번 것만, 허용 테이블만

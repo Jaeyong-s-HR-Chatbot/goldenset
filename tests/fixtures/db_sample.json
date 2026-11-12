@@ -14,7 +14,9 @@
    "page": 10,
    "source_file": "취업규칙(2026년도 7월 28일 개정).pdf",
    "chunk_type": "조문",
-   "category": "근태관리",
+   "categories": [
+    "근태관리"
+   ],
    "searchable": true,
    "tier": "핵심"
   },
@@ -32,7 +34,9 @@
    "page": 30,
    "source_file": "취업규칙(2026년도 7월 28일 개정).pdf",
    "chunk_type": "별표",
-   "category": "근태관리",
+   "categories": [
+    "근태관리"
+   ],
    "searchable": true,
    "tier": "핵심"
   },
@@ -50,7 +54,9 @@
    "page": 55,
    "source_file": "보수규정 시행세칙(2026년도 7월 27일 개정).pdf",
    "chunk_type": "별표",
-   "category": "수당",
+   "categories": [
+    "수당"
+   ],
    "searchable": true,
    "tier": "핵심"
   },
@@ -68,7 +74,9 @@
    "page": null,
    "source_file": "법제처 Open API MST 285279",
    "chunk_type": "조문",
-   "category": "공통",
+   "categories": [
+    "공통"
+   ],
    "searchable": true,
    "tier": "법령"
   }

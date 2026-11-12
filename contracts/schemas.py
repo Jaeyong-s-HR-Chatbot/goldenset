@@ -76,7 +76,7 @@ class ChunkHit(_Model):
     part: int = 1                       # 긴 조문을 나눈 순서
     text: str
     effective_date: Optional[date] = None
-    category: str = ""
+    categories: list[str] = Field(default_factory=list)   # 팀 카테고리 여러 개 (rag.chunks.categories)
     score: float = Field(ge=-1.0, le=1.0)   # 코사인 유사도 (1 - 거리)
     rank: int = Field(ge=1)
 
