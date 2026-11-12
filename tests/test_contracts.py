@@ -1,4 +1,4 @@
-"""실제 DB 행(tests/fixtures/db_sample.json)을 형식대로 끝까지 흘려본다.
+"""실제 DB 행(tests/fixtures/db_sample.json, 골든셋 P1 = E1634)을 형식대로 끝까지 흘려본다.
 
 실행: uv run --with pydantic python tests/test_contracts.py
 """
@@ -42,7 +42,7 @@ expect_error(lambda: chunk_hit_from_row({**db["chunks"][0], "chunk_id": "R3-24"}
 emp = db["employee"]
 profile = profile_from_row(emp, db["dept_name"])
 hr = HrContext(emp_id=emp["emp_id"], as_of=date(2026, 11, 12), profile=profile, records=db["records"])
-assert profile.grade_label == "4급"
+assert profile.grade_label == "5급"
 expect_error(lambda: HrContext(emp_id=emp["emp_id"], as_of=date(2026, 11, 12), profile=profile,
                                records={"leave_balance": [db["other_emp_leave"]]}), "다른 사람 행")
 expect_error(lambda: HrContext(emp_id=emp["emp_id"], as_of=date(2026, 11, 12), profile=profile,
@@ -50,7 +50,7 @@ expect_error(lambda: HrContext(emp_id=emp["emp_id"], as_of=date(2026, 11, 12), p
 
 # 3) /me 응답은 프론트 Me 타입 모양
 me = me_from_profile(profile, "employee").model_dump()
-assert set(me) == {"employee_id", "name", "dept", "grade", "role"} and me["grade"] == "4급"
+assert set(me) == {"employee_id", "name", "dept", "grade", "role"} and me["grade"] == "5급"
 
 # 4) RAG → LLM 메시지
 req = LlmRequest(
@@ -63,7 +63,7 @@ req = LlmRequest(
 msgs = build_messages(req)
 user = msgs[1]["content"]
 assert msgs[0]["role"] == "system" and "[1] 취업규칙 제23조(연차휴가)" in user
-assert "[내 정보]" in user and "4급" in user and "[계산 결과]" in user
+assert "[내 정보]" in user and "5급" in user and "[계산 결과]" in user
 assert "rrn" not in user and "account_no" not in user
 
 # 5) LLM 출력 → 프론트 응답

@@ -61,4 +61,4 @@ python tests/test_router.py
 | `uncertain` | 정답에 ※ / 확인 필요가 붙은 문항 |
 | `multi_hop` | 근거 문서 2개 이상 또는 포괄 질문 |
 
-질문셋 페르소나는 DB의 데모 직원(`data/meta/demo_personas.json`)과 다른 사람이라 `emp_id`가 비어 있어요.
+골든셋 페르소나 3명은 DB 직원과 같아요: P1 = `E1634`, P2 = `E1033`, P3 = `E1768` (`personas[].emp_id`). 본인 데이터가 필요한 문항은 이 사번으로 로그인해 평가하면 돼요.
