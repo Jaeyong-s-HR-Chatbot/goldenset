@@ -1,4 +1,4 @@
-# RAG
+# goldenset
 
 누리철도 HR 챗봇의 규정 검색(RAG) 쪽 코드와 평가 데이터.
 규정·법령 조각과 HR 데이터는 [DB 저장소](https://github.com/Jaeyong-s-HR-Chatbot/DB)에 있어요.
