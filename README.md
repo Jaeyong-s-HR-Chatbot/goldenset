@@ -9,6 +9,8 @@
 | --- | --- |
 | `router/router.py` | 질문 라우터. 규정 검색만 할지, HR 조회도 같이 할지 정함 (LLM 안 씀) |
 | `tests/test_router.py` | 라우터 채점 |
+| `contracts/` | DB ↔ RAG ↔ LLM ↔ 프론트 사이 데이터 형식과 변환 함수 ([설명](docs/data-contracts.md)) |
+| `tests/test_contracts.py` | 실제 DB 행으로 형식을 끝까지 흘려보는 검사 |
 | `eval/golden_set.json` | 골든셋 279문항 (정답, 핵심 사실, 근거 조각 ID 등) |
 | `eval/routing_questions.json` | 라우터 채점용 질문 366개 (규정 / 개인 / 둘다 라벨) |
 
@@ -59,4 +61,4 @@ python tests/test_router.py
 | `uncertain` | 정답에 ※ / 확인 필요가 붙은 문항 |
 | `multi_hop` | 근거 문서 2개 이상 또는 포괄 질문 |
 
-질문셋 페르소나는 DB의 데모 직원(`data/meta/demo_personas.json`)과 다른 사람이라 `emp_id`가 비어 있어요.
+골든셋 페르소나 3명은 DB 직원과 같아요: P1 = `E1634`, P2 = `E1033`, P3 = `E1768` (`personas[].emp_id`). 본인 데이터가 필요한 문항은 이 사번으로 로그인해 평가하면 돼요.
