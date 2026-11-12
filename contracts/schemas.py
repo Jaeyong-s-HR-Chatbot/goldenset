@@ -7,7 +7,7 @@
 
 규칙
 - ID는 DB 그대로 쓴다: chunk_id "r03-0024" / "L01-0086", document_id "r03" / "L01", 사번 "E1001".
-- 직급은 DB에서 숫자(1~5)지만, 사람에게 보이는 곳(프론트, LLM 프롬프트)에서는 "4급" 같은 문자열로 바꾼다.
+- 직급은 DB에서 숫자(1~5, 사원=5급)지만, 사람에게 보이는 곳(프론트, LLM 프롬프트)에서는 "4급" 같은 문자열로 바꾼다.
 - 날짜는 ISO 문자열(YYYY-MM-DD)로 주고받는다.
 - 프론트 응답(ChatResponse)은 frontend/src/types.ts 와 같은 모양을 유지한다. 필드를 더해도 되지만 빼거나 이름을 바꾸면 안 된다.
 """
@@ -19,7 +19,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
-DocKind = Literal["규정", "법령"]
+DocKind = Literal["내부규정", "법령"]   # rag.chunks.doc_kind 값 그대로
 Role = Literal["employee", "hr_admin"]
 
 # HR 조회에서 LLM에 넘겨도 되는 테이블. employee_pii, users, audit_log 는 절대 안 넘긴다.
@@ -92,7 +92,7 @@ class EmployeeProfile(_Model):
     emp_id: str = Field(pattern=r"^E\d{4}$")
     name: str
     dept_name: str
-    grade: int = Field(ge=1, le=6)
+    grade: int = Field(ge=1, le=5)    # DB 직급 1(부장)~5(사원)
     position: str
     hire_date: date
     birth_date: date

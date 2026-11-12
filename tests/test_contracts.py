@@ -30,9 +30,10 @@ def expect_error(fn, why):
     raise AssertionError("막혀야 하는데 통과함: " + why)
 
 
-# 1) DB(rag) → ChunkHit : 규정 조각엔 doc_kind 가 없어도 채워져야 함
+# 1) DB(rag) → ChunkHit : doc_kind 는 DB 값(내부규정/법령) 그대로, 비어 있으면 ID로 채움
 hits = [chunk_hit_from_row(r, score=0.8 - i * 0.05, rank=i + 1) for i, r in enumerate(db["chunks"])]
-assert [h.doc_kind for h in hits] == ["규정", "규정", "규정", "법령"]
+assert [h.doc_kind for h in hits] == ["내부규정", "내부규정", "내부규정", "법령"]
+assert chunk_hit_from_row({k: v for k, v in db["chunks"][0].items() if k != "doc_kind"}, 0.5, 1).doc_kind == "내부규정"
 assert hits[0].title == "취업규칙 제23조(연차휴가)", hits[0].title
 assert hits[0].effective_date == date(2026, 7, 28)
 expect_error(lambda: chunk_hit_from_row({**db["chunks"][0], "chunk_id": "R3-24"}, 0.5, 1), "잘못된 chunk_id")
